@@ -1,0 +1,34 @@
+{
+  "name": "",
+  "shortLabel": "All Datasets",
+  "abstract": "This is a local Cell Browser installation, without dataset hierarchies.\n            Please select a dataset from the list on the left.<p>\n            <p>\n            See the documentation on <a target=_blank href=\"https://cellbrowser.readthedocs.io/collections.html\">\n            dataset hierarchies</a>.\n\n        ",
+  "datasets": [
+    {
+      "shortLabel": "Stromal_Cells",
+      "name": "Stromal_Cells",
+      "md5": "388924c108",
+      "hasFiles": [
+        "datasetDesc"
+      ],
+      "sampleCount": 17145
+    },
+    {
+      "shortLabel": "Immune_Cells",
+      "name": "Immune_Cells",
+      "md5": "45cbd49093",
+      "hasFiles": [
+        "datasetDesc"
+      ],
+      "sampleCount": 19122
+    },
+    {
+      "shortLabel": "Abx_Project",
+      "name": "Abx_Project",
+      "md5": "edef6dc429",
+      "hasFiles": [
+        "datasetDesc"
+      ],
+      "sampleCount": 6351
+    }
+  ]
+}
