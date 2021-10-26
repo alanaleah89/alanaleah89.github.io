@@ -1,0 +1,66 @@
+{
+  "name": "Immune_Cells",
+  "shortLabel": "Immune_Cells",
+  "exprMatrix": "counts_exprMatrix.tsv.gz",
+  "matrices": [
+    {
+      "label": "counts",
+      "fileName": "counts_exprMatrix.tsv.gz"
+    },
+    {
+      "label": "data",
+      "fileName": "data_exprMatrix.tsv.gz"
+    },
+    {
+      "label": "scale",
+      "fileName": "scale_exprMatrix.tsv.gz"
+    }
+  ],
+  "meta": "meta.tsv",
+  "geneIdType": "auto",
+  "clusterField": "SCT_snn_res.1.4",
+  "labelField": "SCT_snn_res.1.4",
+  "enumFields": [
+    "orig.ident",
+    "Is_doublet",
+    "treatment",
+    "LibSize",
+    "NExprs",
+    "RiboProp",
+    "MitoProp",
+    "Doublet",
+    "Complexity",
+    "DiscardAll",
+    "DiscardWoMtRp",
+    "RNA_snn_res.0.8",
+    "seurat_clusters",
+    "Phase",
+    "SCT_snn_res.0.4",
+    "SCT_snn_res.0.6",
+    "SCT_snn_res.0.8",
+    "SCT_snn_res.1",
+    "SCT_snn_res.1.4",
+    "SCT_snn_res.2",
+    "Tabula.labels",
+    "Angelidis.labels",
+    "Peyser.labels",
+    "Cluster"
+  ],
+  "markers": [
+    {
+      "file": "/Users/alanabutler/Immune_Cells/markers.csv",
+      "shortLabel": "Seurat Cluster Markers"
+    }
+  ],
+  "coords": [
+    {
+      "file": "/Users/alanabutler/Immune_Cells/umap.coords.tsv",
+      "shortLabel": "Seurat umap"
+    },
+    {
+      "file": "/Users/alanabutler/Immune_Cells/pca.coords.tsv",
+      "shortLabel": "Seurat pca"
+    }
+  ],
+  "inDir": ""
+}
