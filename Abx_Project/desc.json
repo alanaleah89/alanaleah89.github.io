@@ -1,0 +1,22 @@
+{
+  "title": "Sample Dataset description",
+  "abstract": "Please edit desc.conf to change this text or comment out the \nabstract= line and create abstract.html in the same directory as desc.conf\n",
+  "methods": "\nPlease edit desc.conf to change this text or comment out the methods= line and create methods.html in the same directory as desc.conf\n",
+  "biorxiv_url": "https://www.biorxiv.org/content/123/123.full Strangelove et al.",
+  "custom": {
+    "sample barcode": "1231-HH11"
+  },
+  "supplFiles": [
+    {
+      "label": "Seurat 4.0.2 RDS",
+      "file": "fwoMtRp.annotated.rds"
+    }
+  ],
+  "inDir": "",
+  "coordFiles": [
+    "Seurat_umap.coords.tsv.gz",
+    "Seurat_tsne.coords.tsv.gz",
+    "Seurat_pca.coords.tsv.gz"
+  ],
+  "matrixFile": "/Library/WebServer/Documents/cells/Abx_Project/exprMatrix.tsv.gz"
+}
