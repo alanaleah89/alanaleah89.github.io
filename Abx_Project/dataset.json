@@ -1,0 +1,2281 @@
+{
+  "fileVersions": {
+    "inMatrix": {
+      "fname": "/Users/alanabutler/Abx_Project/counts_exprMatrix.tsv.gz",
+      "md5": "dc6612b4bd",
+      "size": 14977309,
+      "mtime": "2021-10-26 03:19:41"
+    },
+    "outMatrix": {
+      "fname": "/Library/WebServer/Documents/cells/Abx_Project/exprMatrix.tsv.gz",
+      "md5": "dc6612b4bd",
+      "size": 14977309,
+      "mtime": "2021-10-26 03:45:56"
+    },
+    "inMeta": {
+      "fname": "/Users/alanabutler/Abx_Project/meta.tsv",
+      "md5": "631251507a",
+      "size": 1836048,
+      "mtime": "2021-10-26 03:28:33"
+    },
+    "outMeta": {
+      "fname": "/Library/WebServer/Documents/cells/Abx_Project/meta.tsv",
+      "md5": "f4b1bb3b6c",
+      "size": 1607353,
+      "mtime": "2021-10-28 00:56:37"
+    },
+    "desc": {
+      "fname": "desc.conf",
+      "md5": "79d2242c4c",
+      "size": 2692,
+      "mtime": "2021-10-26 03:28:35"
+    },
+    "conf": {
+      "fname": "/Users/alanabutler/Abx_Project/cellbrowser.conf",
+      "md5": "d6cf6b1e27",
+      "size": 1665,
+      "mtime": "2021-10-26 03:28:33"
+    }
+  },
+  "matrixArrType": "Uint32",
+  "sampleCount": 6351,
+  "matrixWasFiltered": false,
+  "metaFields": [
+    {
+      "name": "Cell",
+      "label": "Cell",
+      "type": "uniqueString",
+      "maxSize": 33,
+      "diffValCount": 6351,
+      "md5": "a3d2de3ccb"
+    },
+    {
+      "name": "origident",
+      "label": "orig.ident",
+      "type": "enum",
+      "valCounts": [
+        [
+          "h2o",
+          3917
+        ],
+        [
+          "abx",
+          2434
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 2,
+      "md5": "8ecb120de6"
+    },
+    {
+      "name": "nCount_RNA",
+      "label": "nCount_RNA",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 4880,
+      "md5": "04641d24a5"
+    },
+    {
+      "name": "nFeature_RNA",
+      "label": "nFeature_RNA",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 2987,
+      "md5": "3c3ebd354e"
+    },
+    {
+      "name": "log10GenesPerUMI",
+      "label": "log10GenesPerUMI",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 6311,
+      "md5": "d26010024c"
+    },
+    {
+      "name": "mitoRatio",
+      "label": "mitoRatio",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 6302,
+      "md5": "61aac1e391"
+    },
+    {
+      "name": "rbRatio",
+      "label": "rbRatio",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 6240,
+      "md5": "2aec5ec696"
+    },
+    {
+      "name": "Doublet_score",
+      "label": "Doublet_score",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 111,
+      "md5": "46a9f1ec0a"
+    },
+    {
+      "name": "treatment",
+      "label": "treatment",
+      "type": "enum",
+      "valCounts": [
+        [
+          "h2o",
+          3917
+        ],
+        [
+          "abx",
+          2434
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 2,
+      "md5": "c408db8d74"
+    },
+    {
+      "name": "RiboProp",
+      "label": "RiboProp",
+      "type": "enum",
+      "valCounts": [
+        [
+          "FALSE",
+          6288
+        ],
+        [
+          "TRUE",
+          63
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 2,
+      "md5": "0cd09cd318"
+    },
+    {
+      "name": "MitoProp",
+      "label": "MitoProp",
+      "type": "enum",
+      "valCounts": [
+        [
+          "FALSE",
+          6107
+        ],
+        [
+          "TRUE",
+          244
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 2,
+      "md5": "a2b2cbb105"
+    },
+    {
+      "name": "DiscardAll",
+      "label": "DiscardAll",
+      "type": "enum",
+      "valCounts": [
+        [
+          "FALSE",
+          6044
+        ],
+        [
+          "TRUE",
+          307
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 2,
+      "md5": "bdebf4ece7"
+    },
+    {
+      "name": "RNA_snn_res08",
+      "label": "RNA_snn_res.0.8",
+      "type": "enum",
+      "valCounts": [
+        [
+          "0",
+          1237
+        ],
+        [
+          "1",
+          766
+        ],
+        [
+          "2",
+          741
+        ],
+        [
+          "3",
+          716
+        ],
+        [
+          "4",
+          617
+        ],
+        [
+          "5",
+          611
+        ],
+        [
+          "6",
+          364
+        ],
+        [
+          "7",
+          245
+        ],
+        [
+          "8",
+          162
+        ],
+        [
+          "9",
+          136
+        ],
+        [
+          "10",
+          127
+        ],
+        [
+          "11",
+          116
+        ],
+        [
+          "12",
+          114
+        ],
+        [
+          "13",
+          95
+        ],
+        [
+          "14",
+          69
+        ],
+        [
+          "15",
+          62
+        ],
+        [
+          "16",
+          60
+        ],
+        [
+          "17",
+          48
+        ],
+        [
+          "18",
+          44
+        ],
+        [
+          "19",
+          21
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 20,
+      "md5": "638c5e7fd5"
+    },
+    {
+      "name": "seurat_clusters",
+      "label": "seurat_clusters",
+      "type": "enum",
+      "valCounts": [
+        [
+          "0",
+          840
+        ],
+        [
+          "1",
+          615
+        ],
+        [
+          "2",
+          602
+        ],
+        [
+          "3",
+          588
+        ],
+        [
+          "4",
+          474
+        ],
+        [
+          "5",
+          395
+        ],
+        [
+          "6",
+          332
+        ],
+        [
+          "7",
+          225
+        ],
+        [
+          "8",
+          210
+        ],
+        [
+          "9",
+          196
+        ],
+        [
+          "10",
+          195
+        ],
+        [
+          "11",
+          184
+        ],
+        [
+          "12",
+          165
+        ],
+        [
+          "13",
+          133
+        ],
+        [
+          "14",
+          133
+        ],
+        [
+          "15",
+          126
+        ],
+        [
+          "16",
+          117
+        ],
+        [
+          "17",
+          116
+        ],
+        [
+          "18",
+          114
+        ],
+        [
+          "19",
+          108
+        ],
+        [
+          "20",
+          73
+        ],
+        [
+          "21",
+          68
+        ],
+        [
+          "22",
+          63
+        ],
+        [
+          "23",
+          60
+        ],
+        [
+          "24",
+          48
+        ],
+        [
+          "25",
+          44
+        ],
+        [
+          "26",
+          37
+        ],
+        [
+          "27",
+          29
+        ],
+        [
+          "28",
+          25
+        ],
+        [
+          "29",
+          21
+        ],
+        [
+          "30",
+          15
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 31,
+      "md5": "cbb5df8fdc"
+    },
+    {
+      "name": "SScore",
+      "label": "S.Score",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 6346,
+      "md5": "482f9c757b"
+    },
+    {
+      "name": "G2MScore",
+      "label": "G2M.Score",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 6350,
+      "md5": "7e6c2b8304"
+    },
+    {
+      "name": "Phase",
+      "label": "Phase",
+      "type": "enum",
+      "valCounts": [
+        [
+          "G1",
+          2979
+        ],
+        [
+          "S",
+          1970
+        ],
+        [
+          "G2M",
+          1402
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 3,
+      "md5": "0ed839af0f"
+    },
+    {
+      "name": "nCount_SCT",
+      "label": "nCount_SCT",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 1939,
+      "md5": "55ca2c3b96"
+    },
+    {
+      "name": "nFeature_SCT",
+      "label": "nFeature_SCT",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 2208,
+      "md5": "8f363d3ff8"
+    },
+    {
+      "name": "SCT_snn_res04",
+      "label": "SCT_snn_res.0.4",
+      "type": "enum",
+      "valCounts": [
+        [
+          "0",
+          1387
+        ],
+        [
+          "1",
+          948
+        ],
+        [
+          "2",
+          914
+        ],
+        [
+          "3",
+          751
+        ],
+        [
+          "4",
+          612
+        ],
+        [
+          "5",
+          591
+        ],
+        [
+          "6",
+          199
+        ],
+        [
+          "7",
+          162
+        ],
+        [
+          "8",
+          141
+        ],
+        [
+          "9",
+          131
+        ],
+        [
+          "10",
+          128
+        ],
+        [
+          "11",
+          114
+        ],
+        [
+          "12",
+          76
+        ],
+        [
+          "14",
+          62
+        ],
+        [
+          "15",
+          49
+        ],
+        [
+          "13",
+          46
+        ],
+        [
+          "16",
+          25
+        ],
+        [
+          "17",
+          15
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 18,
+      "md5": "4543e482b8"
+    },
+    {
+      "name": "SCT_snn_res06",
+      "label": "SCT_snn_res.0.6",
+      "type": "enum",
+      "valCounts": [
+        [
+          "0",
+          1362
+        ],
+        [
+          "1",
+          926
+        ],
+        [
+          "2",
+          868
+        ],
+        [
+          "3",
+          737
+        ],
+        [
+          "4",
+          591
+        ],
+        [
+          "5",
+          341
+        ],
+        [
+          "6",
+          271
+        ],
+        [
+          "7",
+          213
+        ],
+        [
+          "8",
+          162
+        ],
+        [
+          "9",
+          141
+        ],
+        [
+          "10",
+          131
+        ],
+        [
+          "11",
+          128
+        ],
+        [
+          "12",
+          114
+        ],
+        [
+          "14",
+          76
+        ],
+        [
+          "13",
+          75
+        ],
+        [
+          "16",
+          62
+        ],
+        [
+          "17",
+          46
+        ],
+        [
+          "15",
+          46
+        ],
+        [
+          "19",
+          25
+        ],
+        [
+          "20",
+          21
+        ],
+        [
+          "21",
+          15
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 21,
+      "md5": "f87db365aa"
+    },
+    {
+      "name": "SCT_snn_res08",
+      "label": "SCT_snn_res.0.8",
+      "type": "enum",
+      "valCounts": [
+        [
+          "0",
+          923
+        ],
+        [
+          "1",
+          868
+        ],
+        [
+          "2",
+          801
+        ],
+        [
+          "3",
+          731
+        ],
+        [
+          "4",
+          710
+        ],
+        [
+          "5",
+          592
+        ],
+        [
+          "6",
+          351
+        ],
+        [
+          "7",
+          261
+        ],
+        [
+          "8",
+          213
+        ],
+        [
+          "9",
+          162
+        ],
+        [
+          "10",
+          131
+        ],
+        [
+          "11",
+          128
+        ],
+        [
+          "13",
+          76
+        ],
+        [
+          "12",
+          75
+        ],
+        [
+          "15",
+          62
+        ],
+        [
+          "14",
+          62
+        ],
+        [
+          "16",
+          52
+        ],
+        [
+          "17",
+          46
+        ],
+        [
+          "18",
+          41
+        ],
+        [
+          "21",
+          25
+        ],
+        [
+          "22",
+          21
+        ],
+        [
+          "23",
+          15
+        ],
+        [
+          "20",
+          5
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 23,
+      "md5": "d283069de3"
+    },
+    {
+      "name": "SCT_snn_res1",
+      "label": "SCT_snn_res.1",
+      "type": "enum",
+      "valCounts": [
+        [
+          "0",
+          866
+        ],
+        [
+          "1",
+          824
+        ],
+        [
+          "2",
+          732
+        ],
+        [
+          "3",
+          677
+        ],
+        [
+          "4",
+          592
+        ],
+        [
+          "5",
+          591
+        ],
+        [
+          "6",
+          270
+        ],
+        [
+          "9",
+          206
+        ],
+        [
+          "7",
+          200
+        ],
+        [
+          "8",
+          199
+        ],
+        [
+          "10",
+          162
+        ],
+        [
+          "11",
+          148
+        ],
+        [
+          "12",
+          143
+        ],
+        [
+          "13",
+          131
+        ],
+        [
+          "14",
+          128
+        ],
+        [
+          "16",
+          76
+        ],
+        [
+          "15",
+          75
+        ],
+        [
+          "18",
+          62
+        ],
+        [
+          "17",
+          62
+        ],
+        [
+          "19",
+          52
+        ],
+        [
+          "20",
+          48
+        ],
+        [
+          "21",
+          41
+        ],
+        [
+          "24",
+          25
+        ],
+        [
+          "25",
+          21
+        ],
+        [
+          "26",
+          15
+        ],
+        [
+          "23",
+          5
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 26,
+      "md5": "c978e8ede1"
+    },
+    {
+      "name": "SCT_snn_res14",
+      "label": "SCT_snn_res.1.4",
+      "type": "enum",
+      "valCounts": [
+        [
+          "0",
+          795
+        ],
+        [
+          "1",
+          678
+        ],
+        [
+          "2",
+          666
+        ],
+        [
+          "3",
+          631
+        ],
+        [
+          "4",
+          478
+        ],
+        [
+          "5",
+          419
+        ],
+        [
+          "6",
+          299
+        ],
+        [
+          "7",
+          243
+        ],
+        [
+          "8",
+          225
+        ],
+        [
+          "10",
+          205
+        ],
+        [
+          "9",
+          199
+        ],
+        [
+          "11",
+          162
+        ],
+        [
+          "12",
+          144
+        ],
+        [
+          "13",
+          144
+        ],
+        [
+          "14",
+          137
+        ],
+        [
+          "15",
+          131
+        ],
+        [
+          "16",
+          128
+        ],
+        [
+          "17",
+          114
+        ],
+        [
+          "20",
+          76
+        ],
+        [
+          "19",
+          75
+        ],
+        [
+          "18",
+          70
+        ],
+        [
+          "22",
+          62
+        ],
+        [
+          "21",
+          62
+        ],
+        [
+          "23",
+          52
+        ],
+        [
+          "24",
+          49
+        ],
+        [
+          "25",
+          41
+        ],
+        [
+          "28",
+          25
+        ],
+        [
+          "29",
+          21
+        ],
+        [
+          "30",
+          15
+        ],
+        [
+          "27",
+          5
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 30,
+      "md5": "01c9ef3c5a"
+    },
+    {
+      "name": "SCT_snn_res2",
+      "label": "SCT_snn_res.2",
+      "type": "enum",
+      "valCounts": [
+        [
+          "0",
+          719
+        ],
+        [
+          "1",
+          576
+        ],
+        [
+          "2",
+          559
+        ],
+        [
+          "3",
+          524
+        ],
+        [
+          "4",
+          448
+        ],
+        [
+          "5",
+          408
+        ],
+        [
+          "6",
+          334
+        ],
+        [
+          "8",
+          246
+        ],
+        [
+          "7",
+          240
+        ],
+        [
+          "9",
+          199
+        ],
+        [
+          "11",
+          173
+        ],
+        [
+          "12",
+          162
+        ],
+        [
+          "14",
+          159
+        ],
+        [
+          "10",
+          159
+        ],
+        [
+          "15",
+          153
+        ],
+        [
+          "13",
+          149
+        ],
+        [
+          "17",
+          144
+        ],
+        [
+          "16",
+          142
+        ],
+        [
+          "18",
+          131
+        ],
+        [
+          "20",
+          128
+        ],
+        [
+          "19",
+          110
+        ],
+        [
+          "21",
+          83
+        ],
+        [
+          "22",
+          76
+        ],
+        [
+          "24",
+          62
+        ],
+        [
+          "23",
+          62
+        ],
+        [
+          "25",
+          52
+        ],
+        [
+          "26",
+          46
+        ],
+        [
+          "27",
+          41
+        ],
+        [
+          "30",
+          25
+        ],
+        [
+          "31",
+          21
+        ],
+        [
+          "32",
+          15
+        ],
+        [
+          "29",
+          5
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 32,
+      "md5": "1e975ef2cd"
+    },
+    {
+      "name": "RNA_snn_res04",
+      "label": "RNA_snn_res.0.4",
+      "type": "enum",
+      "valCounts": [
+        [
+          "0",
+          2030
+        ],
+        [
+          "1",
+          1917
+        ],
+        [
+          "2",
+          767
+        ],
+        [
+          "3",
+          364
+        ],
+        [
+          "4",
+          246
+        ],
+        [
+          "5",
+          162
+        ],
+        [
+          "6",
+          160
+        ],
+        [
+          "7",
+          136
+        ],
+        [
+          "8",
+          126
+        ],
+        [
+          "9",
+          116
+        ],
+        [
+          "10",
+          104
+        ],
+        [
+          "11",
+          68
+        ],
+        [
+          "12",
+          61
+        ],
+        [
+          "13",
+          58
+        ],
+        [
+          "14",
+          21
+        ],
+        [
+          "15",
+          15
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 16,
+      "md5": "f59035f68a"
+    },
+    {
+      "name": "RNA_snn_res06",
+      "label": "RNA_snn_res.0.6",
+      "type": "enum",
+      "valCounts": [
+        [
+          "0",
+          1828
+        ],
+        [
+          "1",
+          1242
+        ],
+        [
+          "2",
+          876
+        ],
+        [
+          "3",
+          767
+        ],
+        [
+          "4",
+          364
+        ],
+        [
+          "5",
+          246
+        ],
+        [
+          "6",
+          162
+        ],
+        [
+          "7",
+          136
+        ],
+        [
+          "8",
+          126
+        ],
+        [
+          "9",
+          116
+        ],
+        [
+          "10",
+          112
+        ],
+        [
+          "11",
+          68
+        ],
+        [
+          "12",
+          62
+        ],
+        [
+          "13",
+          60
+        ],
+        [
+          "14",
+          58
+        ],
+        [
+          "15",
+          48
+        ],
+        [
+          "16",
+          44
+        ],
+        [
+          "17",
+          21
+        ],
+        [
+          "18",
+          15
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 19,
+      "md5": "580e5e25c5"
+    },
+    {
+      "name": "RNA_snn_res1",
+      "label": "RNA_snn_res.1",
+      "type": "enum",
+      "valCounts": [
+        [
+          "0",
+          932
+        ],
+        [
+          "1",
+          847
+        ],
+        [
+          "2",
+          748
+        ],
+        [
+          "3",
+          712
+        ],
+        [
+          "4",
+          679
+        ],
+        [
+          "5",
+          545
+        ],
+        [
+          "6",
+          336
+        ],
+        [
+          "7",
+          244
+        ],
+        [
+          "8",
+          195
+        ],
+        [
+          "9",
+          170
+        ],
+        [
+          "10",
+          162
+        ],
+        [
+          "11",
+          136
+        ],
+        [
+          "12",
+          126
+        ],
+        [
+          "13",
+          116
+        ],
+        [
+          "14",
+          99
+        ],
+        [
+          "15",
+          69
+        ],
+        [
+          "16",
+          60
+        ],
+        [
+          "17",
+          48
+        ],
+        [
+          "18",
+          44
+        ],
+        [
+          "19",
+          37
+        ],
+        [
+          "20",
+          25
+        ],
+        [
+          "21",
+          21
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 22,
+      "md5": "707ea426c6"
+    },
+    {
+      "name": "RNA_snn_res14",
+      "label": "RNA_snn_res.1.4",
+      "type": "enum",
+      "valCounts": [
+        [
+          "0",
+          866
+        ],
+        [
+          "1",
+          687
+        ],
+        [
+          "2",
+          625
+        ],
+        [
+          "3",
+          622
+        ],
+        [
+          "4",
+          613
+        ],
+        [
+          "5",
+          490
+        ],
+        [
+          "6",
+          341
+        ],
+        [
+          "7",
+          224
+        ],
+        [
+          "8",
+          195
+        ],
+        [
+          "9",
+          165
+        ],
+        [
+          "10",
+          162
+        ],
+        [
+          "11",
+          151
+        ],
+        [
+          "12",
+          136
+        ],
+        [
+          "13",
+          133
+        ],
+        [
+          "14",
+          127
+        ],
+        [
+          "15",
+          117
+        ],
+        [
+          "16",
+          116
+        ],
+        [
+          "17",
+          114
+        ],
+        [
+          "18",
+          112
+        ],
+        [
+          "19",
+          100
+        ],
+        [
+          "20",
+          68
+        ],
+        [
+          "21",
+          60
+        ],
+        [
+          "22",
+          44
+        ],
+        [
+          "23",
+          37
+        ],
+        [
+          "24",
+          25
+        ],
+        [
+          "25",
+          21
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 26,
+      "md5": "830cf96fc6"
+    },
+    {
+      "name": "RNA_snn_res2",
+      "label": "RNA_snn_res.2",
+      "type": "enum",
+      "valCounts": [
+        [
+          "0",
+          840
+        ],
+        [
+          "1",
+          615
+        ],
+        [
+          "2",
+          602
+        ],
+        [
+          "3",
+          588
+        ],
+        [
+          "4",
+          474
+        ],
+        [
+          "5",
+          395
+        ],
+        [
+          "6",
+          332
+        ],
+        [
+          "7",
+          225
+        ],
+        [
+          "8",
+          210
+        ],
+        [
+          "9",
+          196
+        ],
+        [
+          "10",
+          195
+        ],
+        [
+          "11",
+          184
+        ],
+        [
+          "12",
+          165
+        ],
+        [
+          "13",
+          133
+        ],
+        [
+          "14",
+          133
+        ],
+        [
+          "15",
+          126
+        ],
+        [
+          "16",
+          117
+        ],
+        [
+          "17",
+          116
+        ],
+        [
+          "18",
+          114
+        ],
+        [
+          "19",
+          108
+        ],
+        [
+          "20",
+          73
+        ],
+        [
+          "21",
+          68
+        ],
+        [
+          "22",
+          63
+        ],
+        [
+          "23",
+          60
+        ],
+        [
+          "24",
+          48
+        ],
+        [
+          "25",
+          44
+        ],
+        [
+          "26",
+          37
+        ],
+        [
+          "27",
+          29
+        ],
+        [
+          "28",
+          25
+        ],
+        [
+          "29",
+          21
+        ],
+        [
+          "30",
+          15
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 31,
+      "md5": "0ab65d93cc"
+    },
+    {
+      "name": "Tabulalabels",
+      "label": "Tabula.labels",
+      "type": "enum",
+      "valCounts": [
+        [
+          "Alveolar Epithelial Type 2",
+          4472
+        ],
+        [
+          "Capillary",
+          645
+        ],
+        [
+          "Alveolar Fibroblast",
+          335
+        ],
+        [
+          "Adventitial Fibroblast",
+          252
+        ],
+        [
+          "Capillary Aerocyte",
+          141
+        ],
+        [
+          "Vein",
+          139
+        ],
+        [
+          "Ciliated",
+          112
+        ],
+        [
+          "Myofibroblast",
+          63
+        ],
+        [
+          "Artery",
+          37
+        ],
+        [
+          "Club",
+          31
+        ],
+        [
+          "Lympatic",
+          21
+        ],
+        [
+          "Pericyte",
+          18
+        ],
+        [
+          "B",
+          15
+        ],
+        [
+          "Alveolar Epithelial Type 1",
+          15
+        ],
+        [
+          "CD4+ T",
+          9
+        ],
+        [
+          "Interstitial Macrophage",
+          8
+        ],
+        [
+          "Nonclassical Monocyte",
+          8
+        ],
+        [
+          "Neutrophil",
+          7
+        ],
+        [
+          "Natural Killer",
+          5
+        ],
+        [
+          "Ccr7+ Dendritic",
+          3
+        ],
+        [
+          "Basal",
+          3
+        ],
+        [
+          "Ly6g5b+ T",
+          3
+        ],
+        [
+          "Plasmacytoid Dendritic",
+          2
+        ],
+        [
+          "Myeloid Dendritic Type 1",
+          2
+        ],
+        [
+          "Neuroendocrine",
+          1
+        ],
+        [
+          "Classical Monocyte",
+          1
+        ],
+        [
+          "Proliferating Immune",
+          1
+        ],
+        [
+          "Zbtb32+ B",
+          1
+        ],
+        [
+          "Myeloid Dendritic Type 2",
+          1
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 29,
+      "md5": "4e6a56764f"
+    },
+    {
+      "name": "Angelidislabels",
+      "label": "Angelidis.labels",
+      "type": "enum",
+      "valCounts": [
+        [
+          "Type_2_pneumocytes",
+          4345
+        ],
+        [
+          "vascular_endothelial_cells",
+          709
+        ],
+        [
+          "Interstitial_Fibroblast",
+          351
+        ],
+        [
+          "Lipofibroblast",
+          212
+        ],
+        [
+          "Capillary_endothelial_cells",
+          187
+        ],
+        [
+          "Vcam1+_endothelial_cells",
+          143
+        ],
+        [
+          "Ciliated_cells",
+          114
+        ],
+        [
+          "Smooth_muscle_cells",
+          61
+        ],
+        [
+          "Mesothelial_cells",
+          52
+        ],
+        [
+          "Club_cells",
+          47
+        ],
+        [
+          "lymphatic_endothelial_cells",
+          27
+        ],
+        [
+          "B_cells",
+          21
+        ],
+        [
+          "Type1_pneumocytes",
+          15
+        ],
+        [
+          "CD8+_T_cells",
+          13
+        ],
+        [
+          "Goblet_cells",
+          10
+        ],
+        [
+          "Interstitial_macrophages",
+          8
+        ],
+        [
+          "Alveolar_macrophage",
+          6
+        ],
+        [
+          "Megakaryocytes",
+          6
+        ],
+        [
+          "Natural_Killer_cells",
+          5
+        ],
+        [
+          "Eosinophils",
+          5
+        ],
+        [
+          "Ccl17+/Cd103-/Cd11b-_dendritic_cells",
+          3
+        ],
+        [
+          "classical_monocyte_(Ly6c2+)",
+          3
+        ],
+        [
+          "Cd103+/Cd11b-_dendritic_cells",
+          3
+        ],
+        [
+          "Cd4+_T_cells",
+          2
+        ],
+        [
+          "Fn1+_macrophage",
+          1
+        ],
+        [
+          "CD209+/Cd11b+_dendritic_cells",
+          1
+        ],
+        [
+          "non-classical_monocyte_(Ly6c2-)",
+          1
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 27,
+      "md5": "e2bbac77d0"
+    },
+    {
+      "name": "Peyserlabels",
+      "label": "Peyser.labels",
+      "type": "enum",
+      "valCounts": [
+        [
+          "Type_2_pneumocytes",
+          4345
+        ],
+        [
+          "vascular_endothelial_cells",
+          709
+        ],
+        [
+          "Interstitial_Fibroblast",
+          351
+        ],
+        [
+          "Lipofibroblast",
+          212
+        ],
+        [
+          "Capillary_endothelial_cells",
+          187
+        ],
+        [
+          "Vcam1+_endothelial_cells",
+          143
+        ],
+        [
+          "Ciliated_cells",
+          114
+        ],
+        [
+          "Smooth_muscle_cells",
+          61
+        ],
+        [
+          "Mesothelial_cells",
+          52
+        ],
+        [
+          "Club_cells",
+          47
+        ],
+        [
+          "lymphatic_endothelial_cells",
+          27
+        ],
+        [
+          "B_cells",
+          21
+        ],
+        [
+          "Type1_pneumocytes",
+          15
+        ],
+        [
+          "CD8+_T_cells",
+          13
+        ],
+        [
+          "Goblet_cells",
+          10
+        ],
+        [
+          "Interstitial_macrophages",
+          8
+        ],
+        [
+          "Alveolar_macrophage",
+          6
+        ],
+        [
+          "Megakaryocytes",
+          6
+        ],
+        [
+          "Natural_Killer_cells",
+          5
+        ],
+        [
+          "Eosinophils",
+          5
+        ],
+        [
+          "Ccl17+/Cd103-/Cd11b-_dendritic_cells",
+          3
+        ],
+        [
+          "classical_monocyte_(Ly6c2+)",
+          3
+        ],
+        [
+          "Cd103+/Cd11b-_dendritic_cells",
+          3
+        ],
+        [
+          "Cd4+_T_cells",
+          2
+        ],
+        [
+          "Fn1+_macrophage",
+          1
+        ],
+        [
+          "CD209+/Cd11b+_dendritic_cells",
+          1
+        ],
+        [
+          "non-classical_monocyte_(Ly6c2-)",
+          1
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 27,
+      "md5": "96b0dac9b5"
+    },
+    {
+      "name": "Cluster",
+      "label": "Cluster",
+      "type": "enum",
+      "valCounts": [
+        [
+          "0",
+          1237
+        ],
+        [
+          "1",
+          766
+        ],
+        [
+          "2",
+          741
+        ],
+        [
+          "3",
+          716
+        ],
+        [
+          "4",
+          617
+        ],
+        [
+          "5",
+          611
+        ],
+        [
+          "6",
+          364
+        ],
+        [
+          "7",
+          245
+        ],
+        [
+          "8",
+          162
+        ],
+        [
+          "9",
+          136
+        ],
+        [
+          "10",
+          127
+        ],
+        [
+          "11",
+          116
+        ],
+        [
+          "12",
+          114
+        ],
+        [
+          "13",
+          95
+        ],
+        [
+          "14",
+          69
+        ],
+        [
+          "15",
+          62
+        ],
+        [
+          "16",
+          60
+        ],
+        [
+          "17",
+          48
+        ],
+        [
+          "18",
+          44
+        ],
+        [
+          "19",
+          21
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 20,
+      "md5": "0137c522bf"
+    }
+  ],
+  "labelField": "RNA_snn_res.0.8",
+  "coords": [
+    {
+      "name": "coords_0",
+      "shortLabel": "Seurat umap",
+      "md5": "43e9dfa940",
+      "minX": 0,
+      "maxX": 65535,
+      "minY": 0,
+      "maxY": 65535,
+      "type": "Uint16",
+      "textFname": "Seurat_umap.coords.tsv.gz",
+      "labelMd5": "d41d8cd98f"
+    },
+    {
+      "name": "coords_1",
+      "shortLabel": "Seurat tsne",
+      "md5": "496f598bde",
+      "minX": 0,
+      "maxX": 65534,
+      "minY": 0,
+      "maxY": 65535,
+      "type": "Uint16",
+      "textFname": "Seurat_tsne.coords.tsv.gz",
+      "labelMd5": "d41d8cd98f"
+    },
+    {
+      "name": "coords_2",
+      "shortLabel": "Seurat pca",
+      "md5": "4b00117bd1",
+      "minX": 0,
+      "maxX": 65535,
+      "minY": 0,
+      "maxY": 65535,
+      "type": "Uint16",
+      "textFname": "Seurat_pca.coords.tsv.gz",
+      "labelMd5": "d41d8cd98f"
+    }
+  ],
+  "hasFiles": [
+    "datasetDesc"
+  ],
+  "topMarkers": {
+    "0": [
+      "Chil1",
+      "Hc",
+      "Fabp5",
+      "Cxcl15",
+      "Gm43085"
+    ],
+    "1": [
+      "Cavin2",
+      "Tmcc2",
+      "Bmpr2",
+      "Fmo1",
+      "Sox13"
+    ],
+    "2": [
+      "Ndnf",
+      "Cldn18",
+      "Areg",
+      "Atf3",
+      "Hbegf"
+    ],
+    "3": [
+      "Cxcl15",
+      "Sftpc",
+      "Lyz2",
+      "Sftpa1",
+      "Hc"
+    ],
+    "4": [
+      "Rn18s",
+      "mt-Rnr1",
+      "mt-Nd1",
+      "mt-Nd2",
+      "mt-Co1"
+    ],
+    "5": [
+      "Sftpc",
+      "Cldn18",
+      "Sftpa1",
+      "Slc34a2",
+      "Sftpd"
+    ],
+    "6": [
+      "Kcne4",
+      "Col3a1",
+      "Col5a2",
+      "Lamc1",
+      "Sulf1"
+    ],
+    "7": [
+      "Col3a1",
+      "Serpine2",
+      "Lamc1",
+      "Prex2",
+      "Gm4956"
+    ],
+    "8": [
+      "Cavin2",
+      "Tmcc2",
+      "Bmpr2",
+      "Fmo1",
+      "Cd34"
+    ],
+    "9": [
+      "Apobec4",
+      "Acsl3",
+      "Ppp1r42",
+      "Dnah7b",
+      "Dnah7c"
+    ],
+    "10": [
+      "Cavin2",
+      "Ackr3",
+      "Ehd4",
+      "Pltp",
+      "Calcrl"
+    ],
+    "11": [
+      "Col3a1",
+      "Prelp",
+      "Lmod1",
+      "Rgs2",
+      "Grem2"
+    ],
+    "12": [
+      "Malat1",
+      "Fendrr",
+      "Egfl7",
+      "Tmem100",
+      "Adgrf5"
+    ],
+    "13": [
+      "Pigr",
+      "Fmo3",
+      "Cckar",
+      "Cyp2f2",
+      "Cldn10"
+    ],
+    "14": [
+      "Col3a1",
+      "Sulf1",
+      "Fmod",
+      "Ildr2",
+      "Igfbp5"
+    ],
+    "15": [
+      "Sgo2a",
+      "Cenpf",
+      "Nuf2",
+      "Aspm",
+      "Tpx2"
+    ],
+    "16": [
+      "Ncf2",
+      "Stk17b",
+      "Sell",
+      "Fcgr2b",
+      "Fcgr3"
+    ],
+    "17": [
+      "Bmx",
+      "Gja5",
+      "Tm4sf1",
+      "Plac8",
+      "Vwf"
+    ],
+    "18": [
+      "Prox1",
+      "Mrc1",
+      "Duox2",
+      "Hoxd9",
+      "Klhl4"
+    ],
+    "19": [
+      "Stk17b",
+      "Cd28",
+      "Sell",
+      "Lax1",
+      "Ptpn7"
+    ]
+  },
+  "markers": [
+    {
+      "name": "markers_0",
+      "shortLabel": "Seurat Cluster Markers"
+    }
+  ],
+  "name": "Abx_Project",
+  "shortLabel": "Abx_Project",
+  "clusterField": "RNA_snn_res.0.8",
+  "md5": "5a31ce89a3"
+}
